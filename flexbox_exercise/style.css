@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px 20px;
+  background-color: #ff00ff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header > div {
+  width: 140px;
+  height: 70px;
+  margin: 0 10px;
+  background-color: #fbb3ff;
+}
+
+.header > :first-child {
+  margin-right: auto;
+}
